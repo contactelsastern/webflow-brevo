@@ -16,7 +16,6 @@ export default async function handler(req, res) {
   // (ça marche à tous les coups, même si tu n'as pas créé d'attributs custom dans Brevo)
   const payload = {
     email,
-    listIds: [204],          // <- remplace 12 par TON ID de liste Brevo
     updateEnabled: true
   };
 
